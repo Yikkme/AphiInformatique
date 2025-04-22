@@ -40,18 +40,23 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Nous trouver</h2>
           
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Map Section */}
             <div className="lg:col-span-8 rounded-lg overflow-hidden shadow-md">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d656.0899397652834!2d2.1039368697754285!3d48.87923049859388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6130da6d825b9%3A0x8841b358a9ca74a1!2sAPHI%20D%C3%A9pannage%20Informatique!5e0!3m2!1sen!2sfr!4v1682587478611!5m2!1sen!2sfr" 
-                width="100%" 
-                height="500" 
-                style={{ border: 0 }} 
-                allowFullScreen 
-                loading="lazy"
-                title="Google Maps - APHI Dépannage Informatique"
-              ></iframe>
+              <div className="relative h-[500px] w-full">
+                <div className="absolute top-0 left-0 w-full h-full">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656.0901052553147!2d2.1034304!3d48.8792198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6130f4bbd43b5%3A0xb3638029553b81a!2sAPHI%20D%C3%A9pannage%20Informatique!5e0!3m2!1sfr!2sfr!4v1682587547745!5m2!1sfr!2sfr"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Google Maps - APHI Dépannage Informatique"
+                  ></iframe>
+                </div>
+              </div>
             </div>
             
             {/* Business Hours */}
