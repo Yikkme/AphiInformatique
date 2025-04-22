@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Aphi Informatique</h3>
+            <h3 className="text-xl font-bold mb-4">APHI Dépannage Informatique</h3>
             <p className="text-gray-700 mb-4">
               Votre partenaire informatique de confiance depuis 2005. Réparation, vente et services à des prix compétitifs.
             </p>
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600 text-sm">
-          <p>&copy; {new Date().getFullYear()} Aphi Informatique. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} APHI Dépannage Informatique. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

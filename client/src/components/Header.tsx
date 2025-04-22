@@ -23,7 +23,7 @@ const Header = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-black">Aphi Informatique</h1>
+              <h1 className="text-xl font-bold text-black">APHI Dépannage Informatique</h1>
               <p className="text-xs text-gray-700">Services & Réparation</p>
             </div>
           </div>

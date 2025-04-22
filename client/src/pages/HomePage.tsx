@@ -40,9 +40,9 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Nous trouver</h2>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
             {/* Map Section */}
-            <div className="lg:col-span-2 rounded-lg overflow-hidden shadow-md">
+            <div className="lg:col-span-8 rounded-lg overflow-hidden shadow-md">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.3582892087293!2d2.102335!3d48.879367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6130f4e9e424d%3A0x3a89a791c8ede0c6!2sCentre%20Commercial%20des%20Vignes%20Benettes%2C%2078230%20Le%20Pecq!5e0!3m2!1sen!2sfr!4v1635419625579!5m2!1sen!2sfr" 
                 width="100%" 
@@ -50,12 +50,14 @@ const HomePage = () => {
                 style={{ border: 0 }} 
                 allowFullScreen 
                 loading="lazy"
-                title="Google Maps - Aphi Informatique"
+                title="Google Maps - APHI Dépannage Informatique"
               ></iframe>
             </div>
             
             {/* Business Hours */}
-            <BusinessHours />
+            <div className="lg:col-span-4">
+              <BusinessHours />
+            </div>
           </div>
         </div>
       </section>
