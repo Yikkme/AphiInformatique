@@ -10,12 +10,12 @@ export const services: Service[] = [
   {
     title: "Réparation de Téléphones",
     description: "Écrans cassés, batteries défectueuses ou problèmes logiciels, nous réparons tous types de smartphones et tablettes.",
-    image: "https://images.unsplash.com/photo-1581993192873-bf5f5f7358ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=500&q=80",
+    image: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=500&q=80",
   },
   {
     title: "Transfert Vidéo",
     description: "Préservez vos souvenirs! Nous convertissons vos cassettes VHS, Mini-DV et autres formats anciens en fichiers numériques.",
-    image: "https://images.unsplash.com/photo-1598550473359-9ae4ecc371c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=500&q=80",
+    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=500&q=80",
   },
 ];
 
