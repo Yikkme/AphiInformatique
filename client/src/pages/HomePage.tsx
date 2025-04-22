@@ -42,8 +42,8 @@ const HomePage = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Map Section */}
-            <div className="lg:col-span-8 rounded-lg overflow-hidden shadow-md">
-              <div className="relative h-[500px] w-full">
+            <div className="lg:col-span-8 rounded-lg overflow-hidden shadow-md" style={{ minHeight: '500px' }}>
+              <div className="relative h-full w-full">
                 <div className="absolute top-0 left-0 w-full h-full">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656.0901052553147!2d2.1034304!3d48.8792198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6130f4bbd43b5%3A0xb3638029553b81a!2sAPHI%20D%C3%A9pannage%20Informatique!5e0!3m2!1sfr!2sfr!4v1682587547745!5m2!1sfr!2sfr"
