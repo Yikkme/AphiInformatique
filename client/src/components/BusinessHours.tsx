@@ -3,7 +3,7 @@ import { businessHours } from "@shared/data";
 
 const BusinessHours = () => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md">
+    <div className="bg-white p-6 rounded-lg shadow-md h-full">
       <h3 className="text-xl font-semibold mb-4 flex items-center">
         <Clock className="text-primary mr-2" />
         Horaires d'ouverture
