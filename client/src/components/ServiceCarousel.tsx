@@ -24,10 +24,10 @@ const ServiceCarousel = () => {
   }, [nextSlide]);
 
   return (
-    <section className="carousel h-96 md:h-[500px] relative bg-gray-800">
+    <section className="carousel h-96 md:h-[500px] relative bg-gray-800 overflow-x-hidden">
       <div 
         className="carousel-container h-full relative"
-        style={{ transform: `translateX(-${currentIndex * 100}%)`, display: "flex", transition: "transform 0.5s ease-in-out" }}
+        style={{ transform: `translateX(-${currentIndex * 100}%)`, display: "flex", transition: "transform 0.5s ease-in-out", width: "100%" }}
       >
         {services.map((service, index) => (
           <div key={index} className="carousel-slide relative w-full h-full flex-shrink-0">

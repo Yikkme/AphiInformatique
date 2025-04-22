@@ -23,8 +23,8 @@ const Header = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-neutral-darker">Aphi Informatique</h1>
-              <p className="text-xs text-neutral-dark">Services & Réparation</p>
+              <h1 className="text-xl font-bold text-black">Aphi Informatique</h1>
+              <p className="text-xs text-gray-700">Services & Réparation</p>
             </div>
           </div>
         </Link>
@@ -32,12 +32,12 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link href="/">
-            <a className={`font-medium ${location === "/" ? "text-primary" : "text-neutral-darker hover:text-primary"} transition-colors`}>
+            <a className={`font-medium ${location === "/" ? "text-primary" : "text-black hover:text-primary"} transition-colors`}>
               Accueil
             </a>
           </Link>
           <Link href="/store">
-            <a className={`font-medium ${location === "/store" ? "text-primary" : "text-neutral-darker hover:text-primary"} transition-colors`}>
+            <a className={`font-medium ${location === "/store" ? "text-primary" : "text-black hover:text-primary"} transition-colors`}>
               Boutique
             </a>
           </Link>
@@ -71,7 +71,7 @@ const Header = () => {
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
             <Link href="/">
               <a 
-                className={`font-medium ${location === "/" ? "text-primary" : "text-neutral-darker hover:text-primary"} transition-colors py-2 border-b border-gray-100`}
+                className={`font-medium ${location === "/" ? "text-primary" : "text-black hover:text-primary"} transition-colors py-2 border-b border-gray-100`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Accueil
@@ -79,7 +79,7 @@ const Header = () => {
             </Link>
             <Link href="/store">
               <a 
-                className={`font-medium ${location === "/store" ? "text-primary" : "text-neutral-darker hover:text-primary"} transition-colors py-2 border-b border-gray-100`}
+                className={`font-medium ${location === "/store" ? "text-primary" : "text-black hover:text-primary"} transition-colors py-2 border-b border-gray-100`}
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Boutique
