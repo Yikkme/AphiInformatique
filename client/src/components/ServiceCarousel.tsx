@@ -42,9 +42,9 @@ const ServiceCarousel = () => {
                 <div className="max-w-lg bg-white bg-opacity-90 p-6 md:p-8 rounded-lg">
                   <h2 className="text-2xl md:text-3xl font-bold text-neutral-darker mb-3">{service.title}</h2>
                   <p className="text-neutral-darker mb-4">{service.description}</p>
-                  <Button className="bg-secondary hover:bg-secondary-light text-white">
+                  {/* <Button className="bg-secondary hover:bg-secondary-light text-white">
                     En savoir plus
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>

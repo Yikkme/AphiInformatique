@@ -8,11 +8,11 @@ const HomePage = () => {
     <div>
       {/* Carousel Section */}
       <ServiceCarousel />
-      
+
       {/* Services Cards Section */}
       <section className="container mx-auto px-4 py-12">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Nos Services</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {serviceCards.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -34,19 +34,20 @@ const HomePage = () => {
           ))}
         </div>
       </section>
-      
+
       {/* Map and Hours Section */}
       <section className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Nous trouver</h2>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Map Section */}
             <div className="lg:col-span-8 rounded-lg overflow-hidden shadow-md" style={{ minHeight: '500px' }}>
               <div className="relative h-full w-full">
                 <div className="absolute top-0 left-0 w-full h-full">
+
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656.0901052553147!2d2.1034304!3d48.8792198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6130f4bbd43b5%3A0xb3638029553b81a!2sAPHI%20D%C3%A9pannage%20Informatique!5e0!3m2!1sfr!2sfr!4v1682587547745!5m2!1sfr!2sfr"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5873.319995164338!2d2.092285264018875!3d48.88044692538218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68821d8125093%3A0xb45c68f042bd0a0d!2sAPHI%20D%C3%A9pannage%20Informatique!5e0!3m2!1sfr!2sfr!4v1745436224558!5m2!1sfr!2sfr"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -58,7 +59,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Business Hours */}
             <div className="lg:col-span-4">
               <BusinessHours />

@@ -30,15 +30,15 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <div className="space-y-3">
               <p className="flex items-start">
-                <MapPin className="text-secondary h-5 w-5 mr-3 mt-1 flex-shrink-0" />
+                <MapPin className="text-black h-5 w-5 mr-3 mt-1 flex-shrink-0" />
                 <span>Centre Commercial des Vignes Benettes, 78230 Le Pecq</span>
               </p>
               <p className="flex items-start">
-                <Phone className="text-secondary h-5 w-5 mr-3 mt-1 flex-shrink-0" />
+                <Phone className="text-black h-5 w-5 mr-3 mt-1 flex-shrink-0" />
                 <span>01 23 45 67 89</span>
               </p>
               <p className="flex items-start">
-                <Mail className="text-secondary h-5 w-5 mr-3 mt-1 flex-shrink-0" />
+                <Mail className="text-black h-5 w-5 mr-3 mt-1 flex-shrink-0" />
                 <span>contact@aphi-informatique.fr</span>
               </p>
             </div>
@@ -58,8 +58,6 @@ const Footer = () => {
                   <a className="hover:text-secondary transition-colors">Boutique</a>
                 </Link>
               </li>
-              <li><a href="#" className="hover:text-secondary transition-colors">Services</a></li>
-              <li><a href="#" className="hover:text-secondary transition-colors">À propos</a></li>
               <li><a href="#" className="hover:text-secondary transition-colors">Mentions légales</a></li>
             </ul>
           </div>
